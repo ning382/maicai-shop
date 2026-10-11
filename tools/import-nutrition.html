@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>导入营养饮食规划数据</title>
+<style>
+  body{font-family:"Microsoft YaHei",sans-serif;background:#f6f7f4;color:#1c2523;display:grid;place-items:center;min-height:100vh;margin:0}
+  .card{background:#fff;border:1px solid #e4e8e2;border-radius:16px;padding:32px;max-width:420px;box-shadow:0 8px 24px rgba(28,37,35,.08);text-align:center}
+  h1{font-size:18px;margin:0 0 10px}
+  p{font-size:13.5px;color:#4a5754;line-height:1.7;margin:0 0 18px}
+  button{background:#2f7d5f;color:#fff;border:none;border-radius:10px;padding:12px 28px;font-size:15px;cursor:pointer}
+  button:disabled{background:#9bb8ac;cursor:default}
+  #out{margin-top:16px;font-size:13px;color:#2f7d5f;min-height:20px;white-space:pre-line}
+  .warn{color:#b7791f;font-size:12px;margin-top:14px}
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>导入「营养饮食规划」标准数据</h1>
+  <p>将 28 道规划菜品 + 食材库 + 金字塔分类 + 一周餐规划写入本浏览器的买菜清单数据。<br>（等同「备份导入」，会覆盖当前浏览器中的现有数据）</p>
+  <button id="go">开始导入</button>
+  <div id="out"></div>
+  <div class="warn">导入完成后自动跳转到应用首页</div>
+</div>
+<script>
+  document.getElementById('go').onclick = async function () {
+    const btn = this, out = document.getElementById('out');
+    btn.disabled = true; out.textContent = '正在读取数据…';
+    try {
+      const res = await fetch('/dist/nutrition-backup.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error('读取失败 HTTP ' + res.status);
+      const d = await res.json();
+      if (!Array.isArray(d.recipes) || !Array.isArray(d.items) || !d.mealPlan) throw new Error('数据形状不正确');
+      localStorage.setItem('maicai.shop.v1', JSON.stringify({
+        v: 2, catalogs: d.catalogs, dishCats: d.dishCats, recipes: d.recipes, items: d.items,
+        sel: {}, checked: {}, itemSel: {}, mealPlan: d.mealPlan, pyramidLayers: d.pyramidLayers
+      }));
+      const back = JSON.parse(localStorage.getItem('maicai.shop.v1'));
+      out.textContent = '已写入：' + back.recipes.length + ' 菜品 / ' + back.items.length + ' 条目 / '
+        + Object.keys(back.mealPlan).length + ' 餐规划，即将跳转…';
+      setTimeout(() => { location.href = '/'; }, 1200);
+    } catch (e) {
+      out.textContent = '失败：' + e.message;
+      btn.disabled = false;
+    }
+  };
+</script>
+</body>
+</html>

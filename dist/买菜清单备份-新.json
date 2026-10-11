@@ -1,0 +1,2384 @@
+{
+  "app": "maicai-shopping",
+  "v": 2,
+  "exportedAt": "2026-10-11T03:49:07.785Z",
+  "catalogs": [
+    {
+      "id": "cat-recipe",
+      "name": "菜品",
+      "type": "recipe",
+      "system": true,
+      "color": "#E0533D"
+    },
+    {
+      "id": "cat-staple",
+      "name": "食材",
+      "type": "item",
+      "system": true,
+      "color": "#5F8D4E"
+    },
+    {
+      "id": "cat-drink",
+      "name": "酒水",
+      "type": "item",
+      "system": true,
+      "color": "#4E7FA8"
+    },
+    {
+      "id": "cat-snack",
+      "name": "零食",
+      "type": "item",
+      "system": true,
+      "color": "#D9A441"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "np-d01",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-breakfast",
+      "name": "燕麦蓝莓酸奶杯",
+      "ings": [
+        {
+          "id": "imv3a5cq10",
+          "name": "燕麦",
+          "qty": "40",
+          "unit": "克",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq11",
+          "name": "蓝莓",
+          "qty": "80",
+          "unit": "克",
+          "cat": "水果"
+        },
+        {
+          "id": "imv3a5cq12",
+          "name": "希腊酸奶",
+          "qty": "150",
+          "unit": "克",
+          "cat": "乳制品"
+        },
+        {
+          "id": "imv3a5cq13",
+          "name": "奇亚籽",
+          "qty": "10",
+          "unit": "克",
+          "cat": "坚果种子"
+        }
+      ]
+    },
+    {
+      "id": "np-d02",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-staple",
+      "name": "藜麦鸡胸彩蔬碗",
+      "ings": [
+        {
+          "id": "imv3a5cq14",
+          "name": "藜麦",
+          "qty": "60",
+          "unit": "克",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq15",
+          "name": "鸡胸肉",
+          "qty": "120",
+          "unit": "克",
+          "cat": "肉禽蛋"
+        },
+        {
+          "id": "imv3a5cq16",
+          "name": "西兰花",
+          "qty": "100",
+          "unit": "克",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq17",
+          "name": "胡萝卜",
+          "qty": "80",
+          "unit": "克",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq18",
+          "name": "橄榄油",
+          "qty": "5",
+          "unit": "毫升",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq19",
+          "name": "盐",
+          "qty": "2",
+          "unit": "克",
+          "cat": "调料"
+        }
+      ]
+    },
+    {
+      "id": "np-d03",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-meat",
+      "name": "香煎三文鱼配芦笋菠菜",
+      "ings": [
+        {
+          "id": "imv3a5cq1a",
+          "name": "三文鱼",
+          "qty": "150",
+          "unit": "克",
+          "cat": "水产"
+        },
+        {
+          "id": "imv3a5cq1b",
+          "name": "芦笋",
+          "qty": "100",
+          "unit": "克",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq1c",
+          "name": "菠菜",
+          "qty": "100",
+          "unit": "克",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq1d",
+          "name": "柠檬",
+          "qty": "2",
+          "unit": "片",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq1e",
+          "name": "橄榄油",
+          "qty": "5",
+          "unit": "毫升",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq1f",
+          "name": "盐",
+          "qty": "2",
+          "unit": "克",
+          "cat": "调料"
+        },
+        {
+          "id": "imv3a5cq1g",
+          "name": "黑胡椒",
+          "qty": "1",
+          "unit": "克",
+          "cat": "调料"
+        }
+      ]
+    },
+    {
+      "id": "np-d04",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-snack",
+      "name": "杏仁配橙子",
+      "ings": [
+        {
+          "id": "imv3a5cq1h",
+          "name": "杏仁",
+          "qty": "15",
+          "unit": "克",
+          "cat": "坚果种子"
+        },
+        {
+          "id": "imv3a5cq1i",
+          "name": "橙子",
+          "qty": "1",
+          "unit": "个",
+          "cat": "水果"
+        }
+      ]
+    },
+    {
+      "id": "np-d05",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-breakfast",
+      "name": "全麦面包配牛油果水煮蛋",
+      "ings": [
+        {
+          "id": "imv3a5cq1j",
+          "name": "全麦面包",
+          "qty": "2",
+          "unit": "片",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq1k",
+          "name": "牛油果",
+          "qty": "半个",
+          "unit": "个",
+          "cat": "水果"
+        },
+        {
+          "id": "imv3a5cq1l",
+          "name": "鸡蛋",
+          "qty": "1",
+          "unit": "个",
+          "cat": "肉禽蛋"
+        },
+        {
+          "id": "imv3a5cq1m",
+          "name": "番茄",
+          "qty": "1",
+          "unit": "个",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq1n",
+          "name": "盐",
+          "qty": "1",
+          "unit": "克",
+          "cat": "调料"
+        }
+      ]
+    },
+    {
+      "id": "np-d06",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-staple",
+      "name": "黑豆糙米碗配番茄莎莎",
+      "ings": [
+        {
+          "id": "imv3a5cq1o",
+          "name": "黑豆",
+          "qty": "60",
+          "unit": "克",
+          "cat": "豆制品"
+        },
+        {
+          "id": "imv3a5cq1p",
+          "name": "糙米",
+          "qty": "60",
+          "unit": "克",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq1q",
+          "name": "番茄",
+          "qty": "1",
+          "unit": "个",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq1r",
+          "name": "莎莎酱",
+          "qty": "30",
+          "unit": "克",
+          "cat": "调料"
+        },
+        {
+          "id": "imv3a5cq1s",
+          "name": "青椒",
+          "qty": "半个",
+          "unit": "个",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq1t",
+          "name": "盐",
+          "qty": "2",
+          "unit": "克",
+          "cat": "调料"
+        }
+      ]
+    },
+    {
+      "id": "np-d07",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-meat",
+      "name": "清蒸鳕鱼配杂蔬荞麦面",
+      "ings": [
+        {
+          "id": "imv3a5cq1u",
+          "name": "鳕鱼",
+          "qty": "150",
+          "unit": "克",
+          "cat": "水产"
+        },
+        {
+          "id": "imv3a5cq1v",
+          "name": "荞麦面",
+          "qty": "80",
+          "unit": "克",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq1w",
+          "name": "西兰花",
+          "qty": "100",
+          "unit": "克",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq1x",
+          "name": "蘑菇",
+          "qty": "80",
+          "unit": "克",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq1y",
+          "name": "生抽",
+          "qty": "10",
+          "unit": "毫升",
+          "cat": "调料"
+        },
+        {
+          "id": "imv3a5cq1z",
+          "name": "盐",
+          "qty": "2",
+          "unit": "克",
+          "cat": "调料"
+        }
+      ]
+    },
+    {
+      "id": "np-d08",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-snack",
+      "name": "蓝莓配核桃",
+      "ings": [
+        {
+          "id": "imv3a5cq110",
+          "name": "蓝莓",
+          "qty": "80",
+          "unit": "克",
+          "cat": "水果"
+        },
+        {
+          "id": "imv3a5cq111",
+          "name": "核桃",
+          "qty": "15",
+          "unit": "克",
+          "cat": "坚果种子"
+        }
+      ]
+    },
+    {
+      "id": "np-d09",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-breakfast",
+      "name": "燕麦粥配草莓亚麻籽",
+      "ings": [
+        {
+          "id": "imv3a5cq112",
+          "name": "燕麦",
+          "qty": "40",
+          "unit": "克",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq113",
+          "name": "草莓",
+          "qty": "80",
+          "unit": "克",
+          "cat": "水果"
+        },
+        {
+          "id": "imv3a5cq114",
+          "name": "亚麻籽",
+          "qty": "10",
+          "unit": "克",
+          "cat": "坚果种子"
+        },
+        {
+          "id": "imv3a5cq115",
+          "name": "脱脂牛奶",
+          "qty": "250",
+          "unit": "毫升",
+          "cat": "乳制品"
+        }
+      ]
+    },
+    {
+      "id": "np-d10",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-cold",
+      "name": "鹰嘴豆蔬菜沙拉配全麦皮塔",
+      "ings": [
+        {
+          "id": "imv3a5cq116",
+          "name": "鹰嘴豆",
+          "qty": "60",
+          "unit": "克",
+          "cat": "豆制品"
+        },
+        {
+          "id": "imv3a5cq117",
+          "name": "生菜",
+          "qty": "80",
+          "unit": "克",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq118",
+          "name": "黄瓜",
+          "qty": "半根",
+          "unit": "根",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq119",
+          "name": "番茄",
+          "qty": "1",
+          "unit": "个",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq11a",
+          "name": "全麦皮塔",
+          "qty": "1",
+          "unit": "个",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq11b",
+          "name": "橄榄油",
+          "qty": "5",
+          "unit": "毫升",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq11c",
+          "name": "盐",
+          "qty": "1",
+          "unit": "克",
+          "cat": "调料"
+        }
+      ]
+    },
+    {
+      "id": "np-d11",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-meat",
+      "name": "少油鸡肉彩椒炒藜麦",
+      "ings": [
+        {
+          "id": "imv3a5cq11d",
+          "name": "鸡胸肉",
+          "qty": "100",
+          "unit": "克",
+          "cat": "肉禽蛋"
+        },
+        {
+          "id": "imv3a5cq11e",
+          "name": "彩椒",
+          "qty": "1",
+          "unit": "个",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq11f",
+          "name": "芦笋",
+          "qty": "80",
+          "unit": "克",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq11g",
+          "name": "藜麦",
+          "qty": "60",
+          "unit": "克",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq11h",
+          "name": "橄榄油",
+          "qty": "5",
+          "unit": "毫升",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq11i",
+          "name": "盐",
+          "qty": "2",
+          "unit": "克",
+          "cat": "调料"
+        }
+      ]
+    },
+    {
+      "id": "np-d12",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-snack",
+      "name": "希腊酸奶配猕猴桃",
+      "ings": [
+        {
+          "id": "imv3a5cq11j",
+          "name": "希腊酸奶",
+          "qty": "150",
+          "unit": "克",
+          "cat": "乳制品"
+        },
+        {
+          "id": "imv3a5cq11k",
+          "name": "猕猴桃",
+          "qty": "1",
+          "unit": "个",
+          "cat": "水果"
+        }
+      ]
+    },
+    {
+      "id": "np-d13",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-breakfast",
+      "name": "绿叶蔬果昔",
+      "ings": [
+        {
+          "id": "imv3a5cq11l",
+          "name": "菠菜",
+          "qty": "60",
+          "unit": "克",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq11m",
+          "name": "香蕉",
+          "qty": "1",
+          "unit": "根",
+          "cat": "水果"
+        },
+        {
+          "id": "imv3a5cq11n",
+          "name": "蓝莓",
+          "qty": "60",
+          "unit": "克",
+          "cat": "水果"
+        },
+        {
+          "id": "imv3a5cq11o",
+          "name": "亚麻籽",
+          "qty": "10",
+          "unit": "克",
+          "cat": "坚果种子"
+        },
+        {
+          "id": "imv3a5cq11p",
+          "name": "脱脂牛奶",
+          "qty": "200",
+          "unit": "毫升",
+          "cat": "乳制品"
+        }
+      ]
+    },
+    {
+      "id": "np-d14",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-staple",
+      "name": "金枪鱼牛油果全麦三明治",
+      "ings": [
+        {
+          "id": "imv3a5cq11q",
+          "name": "金枪鱼",
+          "qty": "80",
+          "unit": "克",
+          "cat": "水产"
+        },
+        {
+          "id": "imv3a5cq11r",
+          "name": "牛油果",
+          "qty": "半个",
+          "unit": "个",
+          "cat": "水果"
+        },
+        {
+          "id": "imv3a5cq11s",
+          "name": "全麦面包",
+          "qty": "2",
+          "unit": "片",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq11t",
+          "name": "黄瓜",
+          "qty": "半根",
+          "unit": "根",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq11u",
+          "name": "盐",
+          "qty": "1",
+          "unit": "克",
+          "cat": "调料"
+        },
+        {
+          "id": "imv3a5cq11v",
+          "name": "黑胡椒",
+          "qty": "1",
+          "unit": "克",
+          "cat": "调料"
+        }
+      ]
+    },
+    {
+      "id": "np-d15",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-staple",
+      "name": "扁豆番茄炖菜配糙米",
+      "ings": [
+        {
+          "id": "imv3a5cq11w",
+          "name": "扁豆",
+          "qty": "70",
+          "unit": "克",
+          "cat": "豆制品"
+        },
+        {
+          "id": "imv3a5cq11x",
+          "name": "番茄",
+          "qty": "2",
+          "unit": "个",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq11y",
+          "name": "洋葱",
+          "qty": "半个",
+          "unit": "个",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq11z",
+          "name": "蒜",
+          "qty": "2",
+          "unit": "瓣",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq120",
+          "name": "糙米",
+          "qty": "60",
+          "unit": "克",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq121",
+          "name": "橄榄油",
+          "qty": "5",
+          "unit": "毫升",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq122",
+          "name": "盐",
+          "qty": "2",
+          "unit": "克",
+          "cat": "调料"
+        }
+      ]
+    },
+    {
+      "id": "np-d16",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-snack",
+      "name": "橙子配南瓜籽",
+      "ings": [
+        {
+          "id": "imv3a5cq123",
+          "name": "橙子",
+          "qty": "1",
+          "unit": "个",
+          "cat": "水果"
+        },
+        {
+          "id": "imv3a5cq124",
+          "name": "南瓜籽",
+          "qty": "15",
+          "unit": "克",
+          "cat": "坚果种子"
+        }
+      ]
+    },
+    {
+      "id": "np-d17",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-breakfast",
+      "name": "希腊酸奶燕麦碗配桃",
+      "ings": [
+        {
+          "id": "imv3a5cq125",
+          "name": "希腊酸奶",
+          "qty": "150",
+          "unit": "克",
+          "cat": "乳制品"
+        },
+        {
+          "id": "imv3a5cq126",
+          "name": "燕麦",
+          "qty": "40",
+          "unit": "克",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq127",
+          "name": "桃",
+          "qty": "1",
+          "unit": "个",
+          "cat": "水果"
+        },
+        {
+          "id": "imv3a5cq128",
+          "name": "杏仁",
+          "qty": "15",
+          "unit": "克",
+          "cat": "坚果种子"
+        }
+      ]
+    },
+    {
+      "id": "np-d18",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-meat",
+      "name": "虾仁西兰花炒藜麦",
+      "ings": [
+        {
+          "id": "imv3a5cq129",
+          "name": "虾仁",
+          "qty": "120",
+          "unit": "克",
+          "cat": "水产"
+        },
+        {
+          "id": "imv3a5cq12a",
+          "name": "西兰花",
+          "qty": "100",
+          "unit": "克",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq12b",
+          "name": "藜麦",
+          "qty": "60",
+          "unit": "克",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq12c",
+          "name": "蒜",
+          "qty": "2",
+          "unit": "瓣",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq12d",
+          "name": "橄榄油",
+          "qty": "5",
+          "unit": "毫升",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq12e",
+          "name": "盐",
+          "qty": "2",
+          "unit": "克",
+          "cat": "调料"
+        }
+      ]
+    },
+    {
+      "id": "np-d19",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-veg",
+      "name": "豆腐菌菇蔬菜煲配荞麦面",
+      "ings": [
+        {
+          "id": "imv3a5cq12f",
+          "name": "豆腐",
+          "qty": "150",
+          "unit": "克",
+          "cat": "豆制品"
+        },
+        {
+          "id": "imv3a5cq12g",
+          "name": "蘑菇",
+          "qty": "100",
+          "unit": "克",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq12h",
+          "name": "荞麦面",
+          "qty": "80",
+          "unit": "克",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq12i",
+          "name": "白菜",
+          "qty": "100",
+          "unit": "克",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq12j",
+          "name": "生抽",
+          "qty": "10",
+          "unit": "毫升",
+          "cat": "调料"
+        },
+        {
+          "id": "imv3a5cq12k",
+          "name": "盐",
+          "qty": "2",
+          "unit": "克",
+          "cat": "调料"
+        }
+      ]
+    },
+    {
+      "id": "np-d20",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-snack",
+      "name": "西瓜苹果拼盘",
+      "ings": [
+        {
+          "id": "imv3a5cq12l",
+          "name": "西瓜",
+          "qty": "200",
+          "unit": "克",
+          "cat": "水果"
+        },
+        {
+          "id": "imv3a5cq12m",
+          "name": "苹果",
+          "qty": "1",
+          "unit": "个",
+          "cat": "水果"
+        }
+      ]
+    },
+    {
+      "id": "np-d21",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-breakfast",
+      "name": "全麦法式吐司配莓果",
+      "ings": [
+        {
+          "id": "imv3a5cq12n",
+          "name": "全麦面包",
+          "qty": "2",
+          "unit": "片",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq12o",
+          "name": "鸡蛋",
+          "qty": "1",
+          "unit": "个",
+          "cat": "肉禽蛋"
+        },
+        {
+          "id": "imv3a5cq12p",
+          "name": "蓝莓",
+          "qty": "60",
+          "unit": "克",
+          "cat": "水果"
+        },
+        {
+          "id": "imv3a5cq12q",
+          "name": "脱脂牛奶",
+          "qty": "100",
+          "unit": "毫升",
+          "cat": "乳制品"
+        }
+      ]
+    },
+    {
+      "id": "np-d22",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-cold",
+      "name": "三文鱼牛油果沙拉",
+      "ings": [
+        {
+          "id": "imv3a5cq12r",
+          "name": "三文鱼",
+          "qty": "100",
+          "unit": "克",
+          "cat": "水产"
+        },
+        {
+          "id": "imv3a5cq12s",
+          "name": "牛油果",
+          "qty": "半个",
+          "unit": "个",
+          "cat": "水果"
+        },
+        {
+          "id": "imv3a5cq12t",
+          "name": "生菜",
+          "qty": "80",
+          "unit": "克",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq12u",
+          "name": "番茄",
+          "qty": "1",
+          "unit": "个",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq12v",
+          "name": "橄榄油",
+          "qty": "5",
+          "unit": "毫升",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq12w",
+          "name": "柠檬",
+          "qty": "2",
+          "unit": "片",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq12x",
+          "name": "盐",
+          "qty": "1",
+          "unit": "克",
+          "cat": "调料"
+        }
+      ]
+    },
+    {
+      "id": "np-d23",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-meat",
+      "name": "鸡胸蔬菜卷配番茄莎莎",
+      "ings": [
+        {
+          "id": "imv3a5cq12y",
+          "name": "鸡胸肉",
+          "qty": "120",
+          "unit": "克",
+          "cat": "肉禽蛋"
+        },
+        {
+          "id": "imv3a5cq12z",
+          "name": "全麦卷饼",
+          "qty": "1",
+          "unit": "张",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq130",
+          "name": "彩椒",
+          "qty": "1",
+          "unit": "个",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq131",
+          "name": "莎莎酱",
+          "qty": "30",
+          "unit": "克",
+          "cat": "调料"
+        },
+        {
+          "id": "imv3a5cq132",
+          "name": "盐",
+          "qty": "2",
+          "unit": "克",
+          "cat": "调料"
+        }
+      ]
+    },
+    {
+      "id": "np-d24",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-snack",
+      "name": "奇亚籽布丁配蓝莓",
+      "ings": [
+        {
+          "id": "imv3a5cq133",
+          "name": "奇亚籽",
+          "qty": "15",
+          "unit": "克",
+          "cat": "坚果种子"
+        },
+        {
+          "id": "imv3a5cq134",
+          "name": "希腊酸奶",
+          "qty": "150",
+          "unit": "克",
+          "cat": "乳制品"
+        },
+        {
+          "id": "imv3a5cq135",
+          "name": "蓝莓",
+          "qty": "60",
+          "unit": "克",
+          "cat": "水果"
+        }
+      ]
+    },
+    {
+      "id": "np-d25",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-breakfast",
+      "name": "燕麦杏仁苹果碗",
+      "ings": [
+        {
+          "id": "imv3a5cq136",
+          "name": "燕麦",
+          "qty": "40",
+          "unit": "克",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq137",
+          "name": "杏仁",
+          "qty": "15",
+          "unit": "克",
+          "cat": "坚果种子"
+        },
+        {
+          "id": "imv3a5cq138",
+          "name": "苹果",
+          "qty": "1",
+          "unit": "个",
+          "cat": "水果"
+        }
+      ]
+    },
+    {
+      "id": "np-d26",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-cold",
+      "name": "地中海拼盘",
+      "ings": [
+        {
+          "id": "imv3a5cq139",
+          "name": "鹰嘴豆泥",
+          "qty": "50",
+          "unit": "克",
+          "cat": "豆制品"
+        },
+        {
+          "id": "imv3a5cq13a",
+          "name": "全麦面包",
+          "qty": "2",
+          "unit": "片",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq13b",
+          "name": "生菜",
+          "qty": "60",
+          "unit": "克",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq13c",
+          "name": "黄瓜",
+          "qty": "半根",
+          "unit": "根",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq13d",
+          "name": "番茄",
+          "qty": "1",
+          "unit": "个",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq13e",
+          "name": "沙丁鱼",
+          "qty": "60",
+          "unit": "克",
+          "cat": "水产"
+        },
+        {
+          "id": "imv3a5cq13f",
+          "name": "橄榄油",
+          "qty": "5",
+          "unit": "毫升",
+          "cat": "米面粮油"
+        }
+      ]
+    },
+    {
+      "id": "np-d27",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-meat",
+      "name": "番茄海鲜汤",
+      "ings": [
+        {
+          "id": "imv3a5cq13g",
+          "name": "蛤蜊",
+          "qty": "100",
+          "unit": "克",
+          "cat": "水产"
+        },
+        {
+          "id": "imv3a5cq13h",
+          "name": "虾仁",
+          "qty": "80",
+          "unit": "克",
+          "cat": "水产"
+        },
+        {
+          "id": "imv3a5cq13i",
+          "name": "番茄",
+          "qty": "2",
+          "unit": "个",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq13j",
+          "name": "芹菜",
+          "qty": "1",
+          "unit": "根",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq13k",
+          "name": "洋葱",
+          "qty": "半个",
+          "unit": "个",
+          "cat": "蔬菜"
+        },
+        {
+          "id": "imv3a5cq13l",
+          "name": "橄榄油",
+          "qty": "5",
+          "unit": "毫升",
+          "cat": "米面粮油"
+        },
+        {
+          "id": "imv3a5cq13m",
+          "name": "盐",
+          "qty": "2",
+          "unit": "克",
+          "cat": "调料"
+        }
+      ]
+    },
+    {
+      "id": "np-d28",
+      "catalogId": "cat-recipe",
+      "dishCat": "dc-snack",
+      "name": "核桃配梨",
+      "ings": [
+        {
+          "id": "imv3a5cq13n",
+          "name": "核桃",
+          "qty": "15",
+          "unit": "克",
+          "cat": "坚果种子"
+        },
+        {
+          "id": "imv3a5cq13o",
+          "name": "梨",
+          "qty": "1",
+          "unit": "个",
+          "cat": "水果"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "np-it-001",
+      "catalogId": "cat-staple",
+      "name": "西兰花",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "np-it-002",
+      "catalogId": "cat-staple",
+      "name": "胡萝卜",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "np-it-003",
+      "catalogId": "cat-staple",
+      "name": "芦笋",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "np-it-004",
+      "catalogId": "cat-staple",
+      "name": "菠菜",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "np-it-005",
+      "catalogId": "cat-staple",
+      "name": "番茄",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "np-it-006",
+      "catalogId": "cat-staple",
+      "name": "青椒",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "np-it-007",
+      "catalogId": "cat-staple",
+      "name": "蘑菇",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "np-it-008",
+      "catalogId": "cat-staple",
+      "name": "生菜",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "np-it-009",
+      "catalogId": "cat-staple",
+      "name": "黄瓜",
+      "price": 0,
+      "priceUnit": "根",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "np-it-010",
+      "catalogId": "cat-staple",
+      "name": "彩椒",
+      "price": 0,
+      "priceUnit": "个",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "np-it-011",
+      "catalogId": "cat-staple",
+      "name": "洋葱",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 82",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "np-it-012",
+      "catalogId": "cat-staple",
+      "name": "蒜",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 82",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "np-it-013",
+      "catalogId": "cat-staple",
+      "name": "白菜",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "np-it-014",
+      "catalogId": "cat-staple",
+      "name": "芹菜",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "np-it-015",
+      "catalogId": "cat-staple",
+      "name": "柠檬",
+      "price": 0,
+      "priceUnit": "个",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "np-it-016",
+      "catalogId": "cat-staple",
+      "name": "鸡胸肉",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 62",
+      "cat": "肉禽蛋"
+    },
+    {
+      "id": "np-it-017",
+      "catalogId": "cat-staple",
+      "name": "鸡蛋",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 69",
+      "cat": "肉禽蛋"
+    },
+    {
+      "id": "np-it-018",
+      "catalogId": "cat-staple",
+      "name": "鸡肝",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 81",
+      "cat": "肉禽蛋"
+    },
+    {
+      "id": "np-it-019",
+      "catalogId": "cat-staple",
+      "name": "三文鱼",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "水产"
+    },
+    {
+      "id": "np-it-020",
+      "catalogId": "cat-staple",
+      "name": "鳕鱼",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 98",
+      "cat": "水产"
+    },
+    {
+      "id": "np-it-021",
+      "catalogId": "cat-staple",
+      "name": "金枪鱼",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "水产"
+    },
+    {
+      "id": "np-it-022",
+      "catalogId": "cat-staple",
+      "name": "虾仁",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "水产"
+    },
+    {
+      "id": "np-it-023",
+      "catalogId": "cat-staple",
+      "name": "沙丁鱼",
+      "price": 0,
+      "priceUnit": "罐",
+      "piecesPerUnit": "",
+      "note": "FCS 95",
+      "cat": "水产"
+    },
+    {
+      "id": "np-it-024",
+      "catalogId": "cat-staple",
+      "name": "蛤蜊",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 87",
+      "cat": "水产"
+    },
+    {
+      "id": "np-it-025",
+      "catalogId": "cat-staple",
+      "name": "牡蛎",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "水产"
+    },
+    {
+      "id": "np-it-026",
+      "catalogId": "cat-staple",
+      "name": "黑豆",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 98",
+      "cat": "豆制品"
+    },
+    {
+      "id": "np-it-027",
+      "catalogId": "cat-staple",
+      "name": "鹰嘴豆",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 91",
+      "cat": "豆制品"
+    },
+    {
+      "id": "np-it-028",
+      "catalogId": "cat-staple",
+      "name": "鹰嘴豆泥",
+      "price": 0,
+      "priceUnit": "盒",
+      "piecesPerUnit": "",
+      "note": "FCS 91",
+      "cat": "豆制品"
+    },
+    {
+      "id": "np-it-029",
+      "catalogId": "cat-staple",
+      "name": "豆腐",
+      "price": 0,
+      "priceUnit": "块",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "豆制品"
+    },
+    {
+      "id": "np-it-030",
+      "catalogId": "cat-staple",
+      "name": "扁豆",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "豆制品"
+    },
+    {
+      "id": "np-it-031",
+      "catalogId": "cat-staple",
+      "name": "毛豆",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "豆制品"
+    },
+    {
+      "id": "np-it-032",
+      "catalogId": "cat-staple",
+      "name": "大豆",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "豆制品"
+    },
+    {
+      "id": "np-it-033",
+      "catalogId": "cat-staple",
+      "name": "腰豆",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 96",
+      "cat": "豆制品"
+    },
+    {
+      "id": "np-it-034",
+      "catalogId": "cat-staple",
+      "name": "燕麦",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 81",
+      "cat": "米面粮油"
+    },
+    {
+      "id": "np-it-035",
+      "catalogId": "cat-staple",
+      "name": "藜麦",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 89",
+      "cat": "米面粮油"
+    },
+    {
+      "id": "np-it-036",
+      "catalogId": "cat-staple",
+      "name": "糙米",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "米面粮油"
+    },
+    {
+      "id": "np-it-037",
+      "catalogId": "cat-staple",
+      "name": "荞麦面",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 77",
+      "cat": "米面粮油"
+    },
+    {
+      "id": "np-it-038",
+      "catalogId": "cat-staple",
+      "name": "全麦面包",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 75",
+      "cat": "米面粮油"
+    },
+    {
+      "id": "np-it-039",
+      "catalogId": "cat-staple",
+      "name": "全麦皮塔",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 75",
+      "cat": "米面粮油"
+    },
+    {
+      "id": "np-it-040",
+      "catalogId": "cat-staple",
+      "name": "全麦卷饼",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 75",
+      "cat": "米面粮油"
+    },
+    {
+      "id": "np-it-041",
+      "catalogId": "cat-staple",
+      "name": "橄榄油",
+      "price": 0,
+      "priceUnit": "瓶",
+      "piecesPerUnit": "",
+      "note": "FCS 78",
+      "cat": "米面粮油"
+    },
+    {
+      "id": "np-it-042",
+      "catalogId": "cat-staple",
+      "name": "莎莎酱",
+      "price": 0,
+      "priceUnit": "瓶",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "调料"
+    },
+    {
+      "id": "np-it-043",
+      "catalogId": "cat-staple",
+      "name": "盐",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "调料"
+    },
+    {
+      "id": "np-it-044",
+      "catalogId": "cat-staple",
+      "name": "黑胡椒",
+      "price": 0,
+      "priceUnit": "瓶",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "调料"
+    },
+    {
+      "id": "np-it-045",
+      "catalogId": "cat-staple",
+      "name": "生抽",
+      "price": 0,
+      "priceUnit": "瓶",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "调料"
+    },
+    {
+      "id": "np-it-046",
+      "catalogId": "cat-staple",
+      "name": "番茄泥",
+      "price": 0,
+      "priceUnit": "罐",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "调料"
+    },
+    {
+      "id": "np-it-047",
+      "catalogId": "cat-staple",
+      "name": "蓝莓",
+      "price": 0,
+      "priceUnit": "盒",
+      "piecesPerUnit": "",
+      "note": "FCS 96",
+      "cat": "水果"
+    },
+    {
+      "id": "np-it-048",
+      "catalogId": "cat-staple",
+      "name": "橙子",
+      "price": 0,
+      "priceUnit": "个",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "水果"
+    },
+    {
+      "id": "np-it-049",
+      "catalogId": "cat-staple",
+      "name": "草莓",
+      "price": 0,
+      "priceUnit": "盒",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "水果"
+    },
+    {
+      "id": "np-it-050",
+      "catalogId": "cat-staple",
+      "name": "猕猴桃",
+      "price": 0,
+      "priceUnit": "个",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "水果"
+    },
+    {
+      "id": "np-it-051",
+      "catalogId": "cat-staple",
+      "name": "香蕉",
+      "price": 0,
+      "priceUnit": "把",
+      "piecesPerUnit": "",
+      "note": "FCS 83",
+      "cat": "水果"
+    },
+    {
+      "id": "np-it-052",
+      "catalogId": "cat-staple",
+      "name": "桃",
+      "price": 0,
+      "priceUnit": "个",
+      "piecesPerUnit": "",
+      "note": "FCS 97",
+      "cat": "水果"
+    },
+    {
+      "id": "np-it-053",
+      "catalogId": "cat-staple",
+      "name": "西瓜",
+      "price": 0,
+      "priceUnit": "个",
+      "piecesPerUnit": "",
+      "note": "FCS 98",
+      "cat": "水果"
+    },
+    {
+      "id": "np-it-054",
+      "catalogId": "cat-staple",
+      "name": "苹果",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 95",
+      "cat": "水果"
+    },
+    {
+      "id": "np-it-055",
+      "catalogId": "cat-staple",
+      "name": "梨",
+      "price": 0,
+      "priceUnit": "个",
+      "piecesPerUnit": "",
+      "note": "FCS 89",
+      "cat": "水果"
+    },
+    {
+      "id": "np-it-056",
+      "catalogId": "cat-staple",
+      "name": "牛油果",
+      "price": 0,
+      "priceUnit": "个",
+      "piecesPerUnit": "",
+      "note": "FCS 96",
+      "cat": "水果"
+    },
+    {
+      "id": "np-it-057",
+      "catalogId": "cat-staple",
+      "name": "杏仁",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "坚果种子"
+    },
+    {
+      "id": "np-it-058",
+      "catalogId": "cat-staple",
+      "name": "核桃",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 92",
+      "cat": "坚果种子"
+    },
+    {
+      "id": "np-it-059",
+      "catalogId": "cat-staple",
+      "name": "奇亚籽",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "坚果种子"
+    },
+    {
+      "id": "np-it-060",
+      "catalogId": "cat-staple",
+      "name": "亚麻籽",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "坚果种子"
+    },
+    {
+      "id": "np-it-061",
+      "catalogId": "cat-staple",
+      "name": "南瓜籽",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "坚果种子"
+    },
+    {
+      "id": "np-it-062",
+      "catalogId": "cat-staple",
+      "name": "葵花籽",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "坚果种子"
+    },
+    {
+      "id": "np-it-063",
+      "catalogId": "cat-staple",
+      "name": "希腊酸奶",
+      "price": 0,
+      "priceUnit": "盒",
+      "piecesPerUnit": "",
+      "note": "FCS 86",
+      "cat": "乳制品"
+    },
+    {
+      "id": "np-it-064",
+      "catalogId": "cat-staple",
+      "name": "脱脂牛奶",
+      "price": 0,
+      "priceUnit": "瓶",
+      "piecesPerUnit": "",
+      "note": "FCS 66",
+      "cat": "乳制品"
+    },
+    {
+      "id": "np-it-065",
+      "catalogId": "cat-staple",
+      "name": "马苏里拉奶酪",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 48",
+      "cat": "乳制品"
+    },
+    {
+      "id": "np-it-066",
+      "catalogId": "cat-staple",
+      "name": "切达奶酪",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 44",
+      "cat": "乳制品"
+    },
+    {
+      "id": "np-it-067",
+      "catalogId": "cat-staple",
+      "name": "羽衣甘蓝",
+      "price": 0,
+      "priceUnit": "把",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "np-it-068",
+      "catalogId": "cat-staple",
+      "name": "芥蓝",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "np-it-069",
+      "catalogId": "cat-staple",
+      "name": "青豆",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "np-it-070",
+      "catalogId": "cat-snack",
+      "name": "空气爆米花",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 82",
+      "cat": ""
+    },
+    {
+      "id": "np-it-071",
+      "catalogId": "cat-snack",
+      "name": "无盐米饼",
+      "price": 0,
+      "priceUnit": "包",
+      "piecesPerUnit": "",
+      "note": "FCS 80",
+      "cat": ""
+    },
+    {
+      "id": "np-it-072",
+      "catalogId": "cat-snack",
+      "name": "豆制脆片",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "FCS 72",
+      "cat": ""
+    },
+    {
+      "id": "np-it-073",
+      "catalogId": "cat-drink",
+      "name": "咖啡替代饮品",
+      "price": 0,
+      "priceUnit": "罐",
+      "piecesPerUnit": "",
+      "note": "FCS 90",
+      "cat": ""
+    },
+    {
+      "id": "np-it-074",
+      "catalogId": "cat-drink",
+      "name": "番茄汁",
+      "price": 0,
+      "priceUnit": "瓶",
+      "piecesPerUnit": "",
+      "note": "FCS 89",
+      "cat": ""
+    },
+    {
+      "id": "np-it-075",
+      "catalogId": "cat-drink",
+      "name": "橙汁",
+      "price": 0,
+      "priceUnit": "瓶",
+      "piecesPerUnit": "",
+      "note": "FCS 77",
+      "cat": ""
+    },
+    {
+      "id": "np-it-076",
+      "catalogId": "cat-drink",
+      "name": "混合蔬菜汁",
+      "price": 0,
+      "priceUnit": "瓶",
+      "piecesPerUnit": "",
+      "note": "FCS 95",
+      "cat": ""
+    },
+    {
+      "id": "np-it-077",
+      "catalogId": "cat-drink",
+      "name": "芹菜汁",
+      "price": 0,
+      "priceUnit": "瓶",
+      "piecesPerUnit": "",
+      "note": "FCS 100",
+      "cat": ""
+    },
+    {
+      "id": "np-it-078",
+      "catalogId": "cat-drink",
+      "name": "蔬果昔",
+      "price": 0,
+      "priceUnit": "瓶",
+      "piecesPerUnit": "",
+      "note": "FCS 97",
+      "cat": ""
+    },
+    {
+      "id": "sp-it-01",
+      "catalogId": "cat-staple",
+      "name": "小葱",
+      "price": 0,
+      "priceUnit": "把",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "sp-it-02",
+      "catalogId": "cat-staple",
+      "name": "白砂糖",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "调料"
+    },
+    {
+      "id": "sp-it-03",
+      "catalogId": "cat-staple",
+      "name": "食用油",
+      "price": 0,
+      "priceUnit": "瓶",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "米面粮油"
+    },
+    {
+      "id": "sp-it-04",
+      "catalogId": "cat-staple",
+      "name": "可乐",
+      "price": 0,
+      "priceUnit": "听",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "其他"
+    },
+    {
+      "id": "sp-it-05",
+      "catalogId": "cat-staple",
+      "name": "姜",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "sp-it-06",
+      "catalogId": "cat-staple",
+      "name": "八角",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "调料"
+    },
+    {
+      "id": "sp-it-07",
+      "catalogId": "cat-staple",
+      "name": "冰糖",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "调料"
+    },
+    {
+      "id": "sp-it-08",
+      "catalogId": "cat-staple",
+      "name": "老抽",
+      "price": 0,
+      "priceUnit": "瓶",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "调料"
+    },
+    {
+      "id": "sp-it-09",
+      "catalogId": "cat-staple",
+      "name": "料酒",
+      "price": 0,
+      "priceUnit": "瓶",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "调料"
+    },
+    {
+      "id": "sp-it-10",
+      "catalogId": "cat-staple",
+      "name": "香醋",
+      "price": 0,
+      "priceUnit": "瓶",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "调料"
+    },
+    {
+      "id": "sp-it-11",
+      "catalogId": "cat-staple",
+      "name": "花椒",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "调料"
+    },
+    {
+      "id": "sp-it-12",
+      "catalogId": "cat-staple",
+      "name": "干辣椒",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "sp-it-13",
+      "catalogId": "cat-staple",
+      "name": "挂面",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "米面粮油"
+    },
+    {
+      "id": "sp-it-14",
+      "catalogId": "cat-staple",
+      "name": "土豆",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "蔬菜"
+    },
+    {
+      "id": "sp-it-15",
+      "catalogId": "cat-staple",
+      "name": "蚝油",
+      "price": 0,
+      "priceUnit": "瓶",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "调料"
+    },
+    {
+      "id": "sp-it-16",
+      "catalogId": "cat-staple",
+      "name": "嫩豆腐",
+      "price": 0,
+      "priceUnit": "块",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "豆制品"
+    },
+    {
+      "id": "sp-it-17",
+      "catalogId": "cat-staple",
+      "name": "牛肉末",
+      "price": 0,
+      "priceUnit": "盒",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "肉禽蛋"
+    },
+    {
+      "id": "sp-it-18",
+      "catalogId": "cat-staple",
+      "name": "猪里脊",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "肉禽蛋"
+    },
+    {
+      "id": "sp-it-19",
+      "catalogId": "cat-staple",
+      "name": "鸡翅中",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "肉禽蛋"
+    },
+    {
+      "id": "sp-it-20",
+      "catalogId": "cat-staple",
+      "name": "猪排骨",
+      "price": 0,
+      "priceUnit": "斤",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "肉禽蛋"
+    },
+    {
+      "id": "sp-it-21",
+      "catalogId": "cat-staple",
+      "name": "淀粉",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "调料"
+    },
+    {
+      "id": "sp-it-22",
+      "catalogId": "cat-staple",
+      "name": "豆瓣酱",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "调料"
+    },
+    {
+      "id": "sp-it-23",
+      "catalogId": "cat-staple",
+      "name": "花椒粉",
+      "price": 0,
+      "priceUnit": "袋",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "调料"
+    },
+    {
+      "id": "sp-it-24",
+      "catalogId": "cat-staple",
+      "name": "黄油",
+      "price": 0,
+      "priceUnit": "块",
+      "piecesPerUnit": "",
+      "note": "",
+      "cat": "米面粮油"
+    }
+  ],
+  "pyramidLayers": [
+    {
+      "name": "调料",
+      "color": "#8A6F9E"
+    },
+    {
+      "name": "肉禽蛋",
+      "color": "#C2503E",
+      "split": true,
+      "right": {
+        "name": "水产",
+        "color": "#4E7FA8"
+      }
+    },
+    {
+      "name": "乳制品",
+      "color": "#6FA8A0",
+      "split": true,
+      "right": {
+        "name": "坚果种子",
+        "color": "#B0796E"
+      }
+    },
+    {
+      "name": "豆制品",
+      "color": "#D9A441",
+      "split": true,
+      "right": {
+        "name": "其他",
+        "color": "#8F867A"
+      }
+    },
+    {
+      "name": "米面粮油",
+      "color": "#A07E4F",
+      "split": true,
+      "right": {
+        "name": "水果",
+        "color": "#E58F3A"
+      }
+    },
+    {
+      "name": "蔬菜",
+      "color": "#5F8D4E"
+    }
+  ],
+  "dishCats": [
+    {
+      "id": "dc-staple",
+      "name": "主食",
+      "color": "#D9A441",
+      "system": true
+    },
+    {
+      "id": "dc-cold",
+      "name": "凉菜",
+      "color": "#5F8D4E",
+      "system": true
+    },
+    {
+      "id": "dc-veg",
+      "name": "素菜",
+      "color": "#4E7FA8",
+      "system": true
+    },
+    {
+      "id": "dc-meat",
+      "name": "肉菜",
+      "color": "#E0533D",
+      "system": true
+    },
+    {
+      "id": "dc-breakfast",
+      "name": "早餐",
+      "color": "#6FA8A0",
+      "system": false
+    },
+    {
+      "id": "dc-snack",
+      "name": "加餐",
+      "color": "#9E7CC3",
+      "system": false
+    }
+  ],
+  "mealPlan": {
+    "0-breakfast": [
+      "np-d01"
+    ],
+    "0-lunch": [
+      "np-d02"
+    ],
+    "0-dinner": [
+      "np-d03"
+    ],
+    "0-snack": [
+      "np-d04"
+    ],
+    "1-breakfast": [
+      "np-d05"
+    ],
+    "1-lunch": [
+      "np-d06"
+    ],
+    "1-dinner": [
+      "np-d07"
+    ],
+    "1-snack": [
+      "np-d08"
+    ],
+    "2-breakfast": [
+      "np-d09"
+    ],
+    "2-lunch": [
+      "np-d10"
+    ],
+    "2-dinner": [
+      "np-d11"
+    ],
+    "2-snack": [
+      "np-d12"
+    ],
+    "3-breakfast": [
+      "np-d13"
+    ],
+    "3-lunch": [
+      "np-d14"
+    ],
+    "3-dinner": [
+      "np-d15"
+    ],
+    "3-snack": [
+      "np-d16"
+    ],
+    "4-breakfast": [
+      "np-d17"
+    ],
+    "4-lunch": [
+      "np-d18"
+    ],
+    "4-dinner": [
+      "np-d19"
+    ],
+    "4-snack": [
+      "np-d20"
+    ],
+    "5-breakfast": [
+      "np-d21"
+    ],
+    "5-lunch": [
+      "np-d22"
+    ],
+    "5-dinner": [
+      "np-d23"
+    ],
+    "5-snack": [
+      "np-d24"
+    ],
+    "6-breakfast": [
+      "np-d25"
+    ],
+    "6-lunch": [
+      "np-d26"
+    ],
+    "6-dinner": [
+      "np-d27"
+    ],
+    "6-snack": [
+      "np-d28"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+# ===== 依赖 =====
+node_modules/
+
+# ===== 构建产物 / 大型工具链（可重新生成，不入库）=====
+android-build/
+
+# ===== 发布产物：APK 可由 gradle 重新构建 =====
+dist/*.apk
+
+# ===== IDE / 系统文件 =====
+.trae/
+.DS_Store
+Thumbs.db
+*.log
+
+# ===== Android（补充 android/.gitignore）=====
+local.properties
+*.keystore
+*.jks

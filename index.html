@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content">
+  <title>买菜清单</title>
+  <meta name="description" content="选几道菜，自动汇总食材生成购物清单">
+  <meta name="theme-color" content="#E0533D">
+
+  <!-- PWA / iOS 主屏幕 -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="买菜清单">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app" id="app">
+
+    <!-- 顶部 -->
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 512 512" width="22" height="22"><path fill="currentColor" d="M150 150h214l-34 160H184z"/><path d="M96 150h54" stroke="currentColor" stroke-width="24" stroke-linecap="round" fill="none"/><circle cx="194" cy="350" r="28" fill="currentColor"/><circle cx="318" cy="350" r="28" fill="currentColor"/></svg>
+          </span>
+          <h1 id="viewTitle">购物清单</h1>
+        </div>
+        <div class="topbar-action" id="topbarAction"></div>
+      </div>
+    </header>
+
+    <main class="content">
+
+      <!-- 购物清单 -->
+      <section class="view" id="view-list" data-view="list"></section>
+
+      <!-- 选菜 -->
+      <section class="view" id="view-pick" data-view="pick" hidden></section>
+
+      <!-- 周规划 -->
+      <section class="view" id="view-plan" data-view="plan" hidden></section>
+
+      <!-- 菜品库 -->
+      <section class="view" id="view-recipes" data-view="recipes" hidden></section>
+
+      <!-- 设置 -->
+      <section class="view" id="view-settings" data-view="settings" hidden></section>
+
+    </main>
+
+    <!-- 底部标签栏 -->
+    <nav class="tabbar" aria-label="主导航">
+      <button class="tab is-active" data-tab="list" type="button">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3 8-8"/><path d="M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h9"/></svg>
+        <span>清单</span>
+        <i class="tab-badge" id="tabBadge" hidden>0</i>
+      </button>
+      <button class="tab" data-tab="pick" type="button">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 11h.01"/><path d="M11 15h.01"/><path d="M16 16h.01"/><path d="m2 16 2-6a1 1 0 0 1 1-.7h11.4a2 2 0 0 1 2 1.6L20 17H3.1A1.6 1.6 0 0 1 2 16Z"/><path d="M6 9.3 5 6H3"/><path d="M9 20a1.5 1.5 0 1 0 0-.01"/><path d="M18 20a1.5 1.5 0 1 0 0-.01"/></svg>
+        <span>选菜</span>
+      </button>
+      <button class="tab" data-tab="plan" type="button">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01M16 18h.01"/></svg>
+        <span>规划</span>
+      </button>
+      <button class="tab" data-tab="recipes" type="button">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>
+        <span>菜品库</span>
+      </button>
+      <button class="tab" data-tab="settings" type="button">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-2.9 1.2V21a2 2 0 1 1-4 0v-.1A1.7 1.7 0 0 0 7 19.4l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1A1.7 1.7 0 0 0 3 13.9H3a2 2 0 1 1 0-4h.1A1.7 1.7 0 0 0 4.6 7l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1A1.7 1.7 0 0 0 10 3.1V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 2.9 1.2l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0 1.2 2.9H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"/></svg>
+        <span>设置</span>
+      </button>
+    </nav>
+  </div>
+
+  <!-- 弹层容器：菜品编辑器 / 安装帮助 -->
+  <div class="sheet-mask" id="sheetMask" hidden></div>
+
+  <!-- 轻提示 -->
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

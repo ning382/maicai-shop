@@ -1,0 +1,11 @@
+{
+  "appId": "com.maicai.shop",
+  "appName": "买菜清单",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}

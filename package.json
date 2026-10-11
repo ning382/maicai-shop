@@ -1,0 +1,15 @@
+{
+  "name": "maicai-shop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "买菜清单 PWA -> Android",
+  "scripts": {
+    "www": "node tools/sync-www.js",
+    "cap:sync": "node tools/sync-www.js && npx cap sync android"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^7.4.4",
+    "@capacitor/cli": "^7.4.4",
+    "@capacitor/core": "^7.4.4"
+  }
+}
